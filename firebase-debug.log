@@ -1,0 +1,17 @@
+[debug] [2020-07-24T18:29:00.928Z] ----------------------------------------------------------------------
+[debug] [2020-07-24T18:29:00.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Claudio\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2020-07-24T18:29:00.931Z] CLI Version:   8.6.0
+[debug] [2020-07-24T18:29:00.931Z] Platform:      win32
+[debug] [2020-07-24T18:29:00.931Z] Node Version:  v12.14.1
+[debug] [2020-07-24T18:29:00.933Z] Time:          Fri Jul 24 2020 15:29:00 GMT-0300 (GMT-03:00)
+[debug] [2020-07-24T18:29:00.933Z] ----------------------------------------------------------------------
+[debug] [2020-07-24T18:29:00.933Z] 
+[debug] [2020-07-24T18:29:00.943Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-24T18:29:00.944Z] > authorizing via signed-in user
+[debug] [2020-07-24T18:29:00.944Z] [iam] checking project whatsapp-clone-2d266 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2020-07-24T18:29:00.948Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-2d266:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2020-07-24T18:29:01.877Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 24 Jul 2020 18:29:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=739","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-24T18:29:01.883Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/whatsapp-clone-2d266/serviceAccounts/whatsapp-clone-2d266@appspot.gserviceaccount.com:testIamPermissions  
+ {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2020-07-24T18:29:02.792Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 24 Jul 2020 18:29:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
